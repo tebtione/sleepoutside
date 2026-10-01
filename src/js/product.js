@@ -16,6 +16,3 @@ async function addToCartHandler(e) {
 document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
-    if (e.target.classList.contains("add-to-cart")) {
-      addToCartHandler(e);
-    }
